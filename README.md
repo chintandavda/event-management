@@ -96,37 +96,16 @@ For detailed API documentation, visit **`http://localhost:5000/api-docs`** (Swag
 
 ---
 
-## Deployment Guide
-
-### Backend (Render)
-
-1. Go to [Render](https://render.com/) and create a new service.
-2. Select **Node.js** as the runtime.
-3. Set **Environment Variables** (`MONGO_URI`, `JWT_SECRET`, `ENCRYPTION_KEY`).
-4. Deploy your backend.
-
-### Frontend (Vercel)
-
-1. Go to [Vercel](https://vercel.com/) and create a new project.
-2. Select your frontend repository.
-3. Deploy the frontend.
-
-Once deployed, **update the API base URL** in `frontend/src/api/api.js`:
-
-```js
-const API = axios.create({ baseURL: "https://your-backend-url.com/api" });
-```
-
 ---
 
 ## Features
 
-✅ **Event Management (CRUD)**  
-✅ **User Authentication (JWT)**  
-✅ **File Uploads (Multer for images & Excel files)**  
-✅ **Search, Pagination & Filtering**  
-✅ **Secure API with Encryption**  
-✅ **Swagger API Documentation**
+1 **Event Management (CRUD)**  
+2 **User Authentication (JWT)**  
+3 **File Uploads (Multer for images & Excel files)**  
+4 **Search, Pagination & Filtering**  
+5 **Secure API with Encryption**  
+6 **Swagger API Documentation**
 
 ---
 
@@ -138,22 +117,3 @@ For any questions, feel free to reach out:
 -   **GitHub:** [your-username](https://github.com/your-username)
 
 ---
-
-## Final Steps
-
-1️ **Push the latest code to GitHub**
-
-```sh
-git add .
-git commit -m "Finalized project"
-git push origin main
-```
-
-2️ **Deploy Backend & Frontend**  
-3️ **Test Everything on the Live URL**
-
----
-
-## 🎉 Congratulations!
-
-Your **Event Management System** is now ready! 🚀
