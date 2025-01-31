@@ -96,8 +96,6 @@ For detailed API documentation, visit **`http://localhost:5000/api-docs`** (Swag
 
 ---
 
----
-
 ## Features
 
 1 **Event Management (CRUD)**  
