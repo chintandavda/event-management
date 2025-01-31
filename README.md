@@ -113,7 +113,6 @@ For detailed API documentation, visit **`http://localhost:5000/api-docs`** (Swag
 
 For any questions, feel free to reach out:
 
--   **Email:** your-email@example.com
--   **GitHub:** [your-username](https://github.com/your-username)
+-   **Email:** davdachintan97@gmail.com
 
 ---
