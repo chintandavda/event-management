@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# Uploads (File Storage)
+uploads/
+public/uploads/
+data/
+
+# Build files
+frontend/build/
+backend/build/
+
+# Dependencies lock files
+package-lock.json
+yarn.lock
+
